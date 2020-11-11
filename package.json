@@ -1,0 +1,39 @@
+{
+  "name": "oid-gen",
+  "version": "0.1.0",
+  "description": "Tiny, fast and independent package to generate bson/mongodb ObjectIDs",
+  "main": "lib/oid-gen.js",
+  "types": "typings/oid-gen.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@ssh.github.com:443/erfanium/oid-gen"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.3",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "ts-node": "^9.0.0",
+    "tsd": "^0.13.1",
+    "typescript": "^4.0.5"
+  },
+  "keywords": [
+    "node",
+    "bson",
+    "mongodb",
+    "objectid",
+    "generate",
+    "id"
+  ],
+  "author": "ERFANIUM <erfanshield@outlook.com>",
+  "license": "MIT"
+}
