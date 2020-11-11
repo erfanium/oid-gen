@@ -1,5 +1,5 @@
 {
-  "name": "oid-gen",
+  "name": "@erfanium/oid-gen",
   "version": "0.1.0",
   "description": "Tiny, fast and independent package to generate bson/mongodb ObjectIDs",
   "main": "lib/oid-gen.js",
