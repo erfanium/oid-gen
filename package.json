@@ -1,11 +1,12 @@
 {
   "name": "@erfanium/oid-gen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny, fast and independent package to generate bson/mongodb ObjectIDs",
   "main": "lib/oid-gen.js",
   "types": "typings/oid-gen.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "ts-node test.ts"
   },
   "repository": {
     "type": "git",

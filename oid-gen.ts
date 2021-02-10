@@ -29,3 +29,11 @@ export function oid(date = Date.now()): Buffer {
 export function oidHex(date?: number): string {
    return oid(date).toString('hex')
 }
+
+export function getDate(oid: Buffer | string) {
+  if (typeof oid === 'string') oid = Buffer.from(oid, 'hex')
+  const date = new Date();
+  const time = oid.readUInt32BE(0);
+  date.setTime(Math.floor(time) * 1000);
+  return date
+}
